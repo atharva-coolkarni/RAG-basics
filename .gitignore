@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment / secrets
+*.env
+.env.*
+
+# Logs
+*.log
+
+# VS Code settings (optional — keep this if you don’t want .vscode committed)
+.vscode/
+
+# LangChain / Chroma / Vector store artifacts (if you later add them)
+chroma/
+chroma_db/
+vectorstore/
+db/
