@@ -18,11 +18,19 @@ env/
 # Logs
 *.log
 
-# VS Code settings (optional — keep this if you don’t want .vscode committed)
+# VS Code settings
 .vscode/
 
-# LangChain / Chroma / Vector store artifacts (if you later add them)
+# LangChain / Chroma / Vector store artifacts
 chroma/
 chroma_db/
 vectorstore/
 db/
+
+# --------------------
+# RAG Data (DO NOT COMMIT)
+# --------------------
+data/
+datasets/
+uploads/
+documents/
